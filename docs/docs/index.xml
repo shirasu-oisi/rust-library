@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Docs on My New Hugo Site</title>
-    <link>https://shirasu-oisi.github.io/library/docs/</link>
+    <link>https://shirasu-oisi.github.io/rust-library/docs/</link>
     <description>Recent content in Docs on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
-    <lastBuildDate>Tue, 17 Nov 2020 00:33:37 +0900</lastBuildDate><atom:link href="https://shirasu-oisi.github.io/library/docs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 17 Nov 2020 00:33:37 +0900</lastBuildDate><atom:link href="https://shirasu-oisi.github.io/rust-library/docs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Test</title>
-      <link>https://shirasu-oisi.github.io/library/docs/exhaustive_search/next_permutation/</link>
+      <link>https://shirasu-oisi.github.io/rust-library/docs/exhaustive_search/next_permutation/</link>
       <pubDate>Tue, 17 Nov 2020 00:33:37 +0900</pubDate>
       
-      <guid>https://shirasu-oisi.github.io/library/docs/exhaustive_search/next_permutation/</guid>
+      <guid>https://shirasu-oisi.github.io/rust-library/docs/exhaustive_search/next_permutation/</guid>
       <description>next_permutation #  概要 #  与えられた拝謁の、次の順列を生成します。はじめにソートされている必要があります。
 使用例 #  fn main() { let mut x = vec![3.14, -1.25, 4.4]; x.sort_by(|a, b| a.partial_cmp(b).unwrap()); assert_eq!(x, vec![-1.25, 3.14, 4.4]); while { println!(&amp;#34;{:?}&amp;#34;, x); next_permutation(&amp;amp;mut x) } {} } output: [-1.25, 3.14, 4.4] [-1.25, 4.4, 3.14] [3.14, -1.25, 4.4] [3.14, 4.4, -1.25] [4.4, -1.25, 3.14] [4.4, 3.14, -1.25] 実装 #  fn next_permutation&amp;lt;T: PartialOrd&amp;gt;(v: &amp;amp;mut [T]) -&amp;gt; bool { let mut i: i64 = -1; let mut j: usize = 0; for (idx, e) in v.</description>
     </item>

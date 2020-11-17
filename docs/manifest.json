@@ -1,14 +1,14 @@
 {
   "name": "My New Hugo Site",
   "short_name": "My New Hugo Site",
-  "start_url": "/library/",
-  "scope": "/library/",
+  "start_url": "/rust-library/",
+  "scope": "/rust-library/",
   "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#000000",
   "icons": [
     {
-      "src": "/library/favicon.svg",
+      "src": "/rust-library/favicon.svg",
       "sizes": "512x512"
     }
   ]
