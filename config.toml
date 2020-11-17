@@ -1,4 +1,4 @@
-baseURL = "https://shirasu-oisi.github.io/library/"
+baseURL = "https://shirasu-oisi.github.io/rust-library/"
 languageCode = "ja"
 title = "My New Hugo Site"
 theme = "book"
