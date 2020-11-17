@@ -2,6 +2,7 @@ baseURL = "https://shirasu-oisi.github.io/library/"
 languageCode = "ja"
 title = "My New Hugo Site"
 theme = "book"
+publishDir = "docs"
 
 [taxonomies]
 tag = "tags"
